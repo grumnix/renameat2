@@ -2,7 +2,7 @@
   description = "Command line tool for renameat2 system call";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs?ref=nixos-25.05";
+    nixpkgs.url = "github:NixOS/nixpkgs?ref=nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
 
     renameat2_src.url = "https://gist.githubusercontent.com/eatnumber1/f97ac7dad7b1f5a9721f/raw/1c470832ec3e481f06dd10fbe35bd5787871adeb/renameat2.c";
